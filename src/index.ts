@@ -2,13 +2,7 @@
 // Convention: every interface/type lives in `./types`; runtime values (the
 // renderers, prompt factories, session, validators) stay in their own modules.
 export { confirm } from './confirm';
-export {
-  ANSI,
-  DEFAULT_SPINNER_FRAMES,
-  INTERRUPTED_EXIT_CODE,
-  SPINNER_INTERVAL_MS,
-  USAGE_EXIT_CODE,
-} from './constants';
+export { ANSI, DEFAULT_SPINNER_FRAMES, INTERRUPTED_EXIT_CODE, SPINNER_INTERVAL_MS, USAGE_EXIT_CODE } from './constants';
 export { multiselect } from './multiselect';
 export { password } from './password';
 export {
